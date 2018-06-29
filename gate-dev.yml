@@ -35,7 +35,7 @@ server:
 gate:
   # 开发不进行权限校验的路径
   ignore:
-    startWith: /static,/auth/oauth/,/admin/v2/api-docs,/dict/v2/api-docs,/auth/v2/api-docs,/dict/dictValue/type/comm_sex
+    startWith: /static,/auth/oauth/,/irrigation/v2/api-docs,/hr/v2/api-docs,/market/v2/api-docs,/oa/v2/api-docs,/wf/v2/api-docs,/admin/v2/api-docs,/dict/v2/api-docs,/auth/v2/api-docs,/dict/dictValue/type/comm_sex
 
 auth:
   serviceId: ace-auth
