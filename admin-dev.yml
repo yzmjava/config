@@ -40,8 +40,8 @@ spring:
     rabbitmq:
         host: ${RABBIT_MQ_HOST:localhost}
         port:  ${RABBIT_MQ_PORT:5672}
-        username: guest
-        password: guest
+        username: admin
+        password: admin
     zipkin:
         enabled: true
     sleuth:
@@ -102,7 +102,7 @@ swagger:
     version: 1.0.0.SNAPSHOT
     description: Admin Back后端服务
     contact:
-        name: 老A
+        name: yzm
 
 auth:
   serviceId: ace-auth

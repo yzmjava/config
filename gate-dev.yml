@@ -17,8 +17,8 @@ spring:
     rabbitmq:
         host: ${RABBIT_MQ_HOST:localhost}
         port:  ${RABBIT_MQ_PORT:5672}
-        username: guest
-        password: guest
+        username: admin
+        password: admin
     zipkin:
       enabled: true
     sleuth:
