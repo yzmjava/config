@@ -84,7 +84,7 @@ eureka:
         healthCheckUrlPath: /health
         # docker 部署开启,记得将IP修改为部署所在服务器的外网IP
         prefer-ip-address: true
-        ip-address: 12.0.0.1
+        ip-address: 127.0.0.1
         leaseRenewalIntervalInSeconds: 5
     client:
         serviceUrl:
